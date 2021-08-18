@@ -1,0 +1,142 @@
+body {
+    background: linear-gradient( 45deg, rgb(0 0 0 / 75%), rgb(0 0 0 / 75%)), url("https://techcrunch.com/wp-content/uploads/2020/03/GettyImages-1209679043.jpg?w=1390&crop=1");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+* {
+    outline: none !important;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav,
+footer {
+    background-color: transparent;
+}
+
+nav.main-nav {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.navbar {
+    padding: 1rem 0 0 0;
+}
+.navbar-brand {
+    font-size: 2rem;
+    padding: 0;
+}
+
+#myUl {
+    display: none;
+    margin: 0 20px;
+    list-style: disc;
+}
+
+#covidData {
+    display: none;
+    line-height: 28px;
+    margin: 20px auto;
+    padding: 50px;
+    color: white;
+    background: #101010;
+    word-spacing: 2px;
+}
+
+span {
+    font-weight: 600;
+    padding: 0;
+    border-bottom: 2.5px solid #101010;
+    font-size: 1.1rem;
+}
+
+#date {
+    text-align: center;
+    margin-top: -25px;
+}
+
+.form-control {
+    border-radius: 0px !important;
+}
+
+#author a {
+    color: #fff;
+}
+#pre-text {
+    color: #fff;
+}
+
+.form-control:focus,
+.form-control:active {
+    border: 0;
+}
+
+select {
+    text-align: center;
+    text-align-last: center;
+  }
+option {
+    text-align: left;
+  }
+
+#textOR {
+    color: white !important;
+    background: transparent !important;
+    border: 0;
+}
+
+.form-control {
+    box-shadow: none !important;
+}
+
+.button {
+    box-shadow: none !important;
+    padding: 0;
+}
+
+#Global {
+    background-color: #101010;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 0.9px;
+    padding: 2px 25px;
+    border: 2px solid white;
+    font-family: monospace;
+}
+
+footer {
+    position: sticky;
+    text-align: center;
+}
+
+.card {
+    padding: 50px 20px;
+    background: transparent !important;
+}
+
+.card .data {
+    color: #fff;
+}
+
+.text-country {
+    margin-bottom: 20px;
+}
+
+.data, span {
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+.data span {
+    border: 0;
+}
+
+@media only screen and (max-width:600px) {
+    .data, span {
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
